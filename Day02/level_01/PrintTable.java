@@ -1,5 +1,6 @@
      import java.util.*;
-class PrintTable{
+class 
+{
    
       public static void main(String[] args){
             //Creating the scanner class 0bject
