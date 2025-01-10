@@ -1,0 +1,21 @@
+import java.util.*;
+class RocketLaunch2{
+      public static void main(String[] args){
+            //creating a scanner class object.
+            Scanner input = new Scanner(System.in);
+            //taking input in the number variable.
+            System.out.println("Enter the cooundown count : ");
+            int number = input.nextInt();
+            //checking the condition according to the question.
+            for(int i = number ; i > 0; i--){ 
+                
+                 System.out.println(i);
+                  if(i == 1){ 
+                        System.out.println("Rocket Launch");
+                        
+                   }
+            }
+            //close the scanner object
+            input.close();
+      }
+}
